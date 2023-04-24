@@ -1,0 +1,210 @@
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:300,500,400,600,700,800');
+@import url(https://fonts.googleapis.com/css?family=Sanchez:400italic,400);
+@import url('normalize.css');
+
+footer{
+      background-color: #35414b;
+      padding: 2rem 0rem;
+      margin-top: 1rem;
+  } 
+  
+  footer .container{
+      margin: 1rem auto;
+  }
+  
+  .footer-col .footer-logo{
+      width: 180px;
+  }
+  
+  .footer-col .footer-logo img{
+      width: 100%;
+  }
+  
+  .footer-col h4{
+      color: #FFF;
+      font-size: 17px;
+  }
+  
+  .footer-col h4:after {
+        background: #3AB3DF; 
+        content: '';
+        display: block;
+        height: 3px;
+        margin: 15px 0px 20px;
+        width: 60px;
+  }
+  
+  .footer-col p{
+      line-height: 1.5;
+      margin-top: 15px;
+      font-weight: 13px;
+      color: #FFF;
+  }
+  
+  .fi-fas{
+      float: left;
+      margin-right: 15px;
+      color: #3AB3DF;
+      line-height: 0.5;
+      margin-bottom: 10px;
+  }
+  
+  .fi-fas .fas{
+      font-size: 14px;
+  }
+  
+  .span-fi{
+      clear: both;
+      margin: 20px 0px;
+  }
+  
+  .span-fi p{
+      font-size: 13px;
+  }
+  
+  .media-post{
+      clear: both;
+      height: 70px;
+  }
+  
+  .media-thumb{
+      width: 70px;
+      float: left;
+      margin-right: 15px;
+  }
+  
+  .media-thumb img{
+      width: 100%;
+  }
+  
+  .media-caption h5{
+      color: #FFF;
+      font-size: 14px;
+      line-height: 1.3;
+  }
+  
+  .media-caption p{
+      margin-top: -5px;
+      font-size: 13px;
+  }
+  
+  footer hr.divider{
+      margin: 30px auto 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .footer-col hr.divider{
+      margin: 20px auto;
+      border-top: 1px solid rgba(255, 255, 255, 0.2); 
+  }
+  
+  .popular-links ul li{
+      font-family: 'Poppins', sans-serif; 
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 2.5;
+      list-style-type:none;
+  }
+  
+  .popular-links ul li:before{
+      font-family: "Font Awesome 5 Free"; 
+      font-weight: 900; 
+      content: "\f101";
+      margin-right: 10px;
+  }
+  
+  .footer-grid-box{
+      padding: 10px;
+  }
+  
+  .gb-photos{
+      padding: 3px;
+  }
+  
+  .gb-photos img{
+      width: 100%;
+  }
+  
+  .footer-bottom{
+      padding: 10px 0px;
+  }
+  
+  .fb-copyright{
+      float: left;
+  }
+  
+  .fb-copyright p{
+      color: #FFF;
+      font-size: 14px;
+  }
+  
+  .fb-social{
+      float: right;
+      color: #FFF;
+      font-size: 15px;
+  }
+  
+  .span-fb-social{
+      display: inline-block;
+      margin-right: 20px;
+  }
+  
+  .last-box{
+      margin-right: 0px;
+  }*/
+
+  footer {
+    background-color:black;
+    color: #080707;
+    margin: 60px;
+    padding: 60px;
+  }
+  footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+    
+    .footer-column {
+      flex: 1;
+      margin: 0 10px;
+    }
+    
+    .footer-column img {
+      max-width: 100%;
+    }
+    
+    .footer-column h3 {
+      margin-bottom: 10px;
+    }
+    
+    .footer-column ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .footer-column li {
+      margin-bottom: 10px;
+    }
+    
+    .footer-column li a {
+      text-decoration: none;
+      color: #333;
+    }
+    
+    .footer-column li img {
+        width: 70px;
+        height: 70px
+    }
+    
+       .footer-column ul li img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+       }
+      

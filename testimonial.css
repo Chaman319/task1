@@ -1,0 +1,123 @@
+.testimonials-parallax-alt{ 
+      background-image: url("../img/images/img2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      padding: 1rem 0rem 0.50rem;
+  }
+  
+  .testimonials-parallax-alt:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #35414b, #35414b);
+    opacity: 0.9;
+  }
+  
+  .about-testimonials{
+      padding: 1rem 0rem;
+  }
+  
+  .about-testimonials h5{
+      text-transform: none;
+      color: #FFF;
+      font-style: italic;
+      font-size: 15px;
+  }
+      
+  .about-testimonials h2:after{
+     background-color: #3AB3DF;
+     content: '';
+     display: block;
+     height: 5px;
+     margin: 0.80rem 0rem;
+     width: 80px;
+  }   
+      
+  .about-testimonials h2{
+     font-size: 1.3rem;
+      color: #FFF;
+  } 
+  
+  .about-testimonials strong{
+      font-weight: 600;
+      font-style: italic;
+  }
+      
+  .about-testimonials p{
+      font-size: 14px;
+      color: #FFF;
+      line-height: 1.9;
+      margin-bottom: 0.70rem;
+  }
+  
+  .testimonials-box{
+      padding: 1.5rem;
+      margin: 20px;
+      background-color: #FFF;
+  }
+      
+  .testimonials-box p{
+      font-size: 14px;
+      line-height: 1.5;
+      color: #737373;
+      font-style: italic;
+  }
+      
+  .tb-client-details{
+      margin-top: 1.5rem;
+  }
+      
+  .tb-client-avatar{
+      width: 60px;
+      height: 60px;
+      float: left;
+      margin-right: 15px;
+  }
+  
+  .tb-client-avatar img{
+      width: 100%;
+      border-radius: 50%;
+  }
+      
+  .tb-client-details .caption{
+      padding: 10px 0px;
+  }  
+      
+  .tb-client-details .caption h4{
+      font-size: 15px;
+      font-weight: 400;
+  }  
+      
+  .tb-client-details .caption strong{
+      font-weight: 600;
+  }
+      
+  .span-rating{
+      margin-top: -10px;
+  }
+      
+  .inner-star{
+      display: inline-block;
+      margin-right: 2px;
+  }
+      
+  .inner-star .fas{
+      font-size: 13px;
+      color: #eb662d;
+  }
+      
+  .groucho:after {
+    content: '\201D';
+    position: absolute;
+    top: 3rem;
+    right: 2.5rem;
+    font-size: 6em;
+    font-style: italic;
+    color: #e7e6e4;
+    z-index: 1;
+  }
